@@ -10,4 +10,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "9.0"
   s.source   = { :git => "https://github.com/arianepaola/SKTUtils.git", :tag => s.version }
   s.source_files = "SKTUtils/*.swift"
+  s.frameworks = "AVFoundation", "CoreGraphics", "SpriteKit"
+
 end
